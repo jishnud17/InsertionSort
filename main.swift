@@ -1,4 +1,9 @@
-var integers:[String] = ["cat", "apple"] 
+var integers = [String]()
+
+while let line = readLine() {
+    integers.append(line)
+}
+
 var last_position = integers.count 
 var sap = true
 var key = ""
@@ -13,7 +18,7 @@ var j = 0
         integers[j + 1] = key
       
     }
-    print(integers)    
+   
     
     
 
